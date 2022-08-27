@@ -30,5 +30,5 @@ public class Company
     @JsonProperty("date_of_creation")
     private String dateOfCreation;
     private Address address;
-    private List<Officer> officers = new ArrayList<>();
+    private List<Officer> officers;
 }

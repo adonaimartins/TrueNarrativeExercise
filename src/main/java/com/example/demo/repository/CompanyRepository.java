@@ -26,9 +26,9 @@ public class CompanyRepository
     private static final String CONTENT_TYPE = "Content-type";
 
 
-    public Optional<List<Company>> findByNumber(String companyNumber)
+    public Optional<List<Company>> findByQuery(String query)
     {
-        var request = buildGetCompanyRequest("/Companies/v1/" + URI_QUERY_STRING + companyNumber);
+        var request = buildGetCompanyRequest("/Companies/v1/" + URI_QUERY_STRING + query);
 
         CompanyApi response = (CompanyApi) webClientService.send(request, CompanyApi.class);
 
