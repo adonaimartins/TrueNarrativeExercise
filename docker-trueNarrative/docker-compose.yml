@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  wire-mock:
+    build: ./wire-mock
+    ports:
+      - "8089:8080"

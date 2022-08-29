@@ -1,0 +1,31 @@
+{
+  "page_number": 1,
+  "kind": "search#companies",
+  "total_results": 1,
+  "items": [
+    {
+      "company_status": "dissolved",
+      "address_snippet": "26 Lesley Close, Bexley, England, DA5 1LX",
+      "date_of_creation": "2021-02-01",
+      "description": "13171403 - Dissolved on  5 July 2022",
+      "links": {
+        "self": "/company/13171403"
+      },
+      "company_number": "13171403",
+      "title": "ALL A-BOARD DAY NURSERY & PRE SCHOOL LTD",
+      "company_type": "private-limited-guarant-nsc",
+      "address": {
+        "premises": "26",
+        "postal_code": "DA5 1LX",
+        "country": "England",
+        "locality": "Bexley",
+        "address_line_1": "Lesley Close"
+      },
+      "kind": "searchresults#company",
+      "description_identifier": [
+        "dissolved-on"
+      ],
+      "date_of_cessation": "2022-07-05"
+    }
+  ]
+}

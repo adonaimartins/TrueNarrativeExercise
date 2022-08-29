@@ -1,0 +1,48 @@
+{
+  "mappings":[
+    {
+      "scenarioName": "CorrectRequest",
+      "request": {
+        "method": "GET",
+        "url": "/Companies/v1/Officers?CompanyNumber=06500244",
+        "headers": {
+          "Content-Type": {
+            "equalTo": "application/json"
+          },
+          "x-api-key": {
+            "equalTo": "IoVV8jaWtJX5CRRIYqyR542r9Q2SzvU17XCDZun8"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "getOfficersFor06500244.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "CorrectRequest",
+      "request": {
+        "method": "GET",
+        "url": "/Companies/v1/Officers?CompanyNumber=13171403",
+        "headers": {
+          "Content-Type": {
+            "equalTo": "application/json"
+          },
+          "x-api-key": {
+            "equalTo": "IoVV8jaWtJX5CRRIYqyR542r9Q2SzvU17XCDZun8"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "getOfficersFor13171403.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}
