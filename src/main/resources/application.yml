@@ -1,3 +1,18 @@
 
 apiKey: IoVV8jaWtJX5CRRIYqyR542r9Q2SzvU17XCDZun8
 apiBaseUrl: https://exercise.trunarrative.cloud/TruProxyAPI/rest
+
+
+#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#  servlet:
+#    multipart:
+#      enabled: false
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://ps_db:5432/companies_database?createDatabaseIfNotExist=true
+#    username: gp2gp_user
+#    password: 123456
+

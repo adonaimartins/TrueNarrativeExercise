@@ -23,14 +23,33 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation group: 'org.springframework', name: 'spring-webflux', version: '5.3.22'
 	implementation group: 'io.projectreactor.netty', name: 'reactor-netty', version: '1.0.22'
+	implementation 'org.testng:testng:7.1.0'
+//	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+sourceSets {
+	integrationTest {
+		java {
+			compileClasspath += main.output + test.output
+			runtimeClasspath += main.output + test.output
+			srcDir file('src/integrationTest/java')
+		}
+	}
+}
+
+
+configurations {
+	integrationTestCompileOnly.extendsFrom testCompileOnly
+	integrationTestImplementation.extendsFrom testImplementation
+	integrationTestRuntime.extendsFrom testRuntime
+	integrationTestAnnotationProcessor.extendsFrom testAnnotationProcessor
 }

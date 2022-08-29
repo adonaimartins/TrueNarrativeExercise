@@ -11,7 +11,7 @@ import java.util.List;
 @Builder
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class HttpResponse
+public class HttpResponse  implements Response
 {
     @JsonProperty("total_results")
     private int totalResults;

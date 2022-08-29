@@ -1,6 +1,6 @@
 package com.example.demo.controller.validation;
 
-import com.example.demo.controller.bodyObjects.RequestBodyByNumberAndName;
+import com.example.demo.controller.body_objects.RequestBodyByNumberAndName;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

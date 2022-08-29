@@ -14,6 +14,8 @@ import lombok.extern.jackson.Jacksonized;
 @Builder
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Table(name = "address", schema = "public")
 public class Address
 {
     private String locality;
