@@ -39,6 +39,6 @@ public class Company
     //@Column(name = "address")
     private Address address;
     @JsonManagedReference
-    //@OneToMany(mappedBy = "patientMigrationRequest", cascade = CascadeType.ALL)
+    //@OneToMany(mappedBy = "", cascade = CascadeType.ALL)
     private List<Officer> officers;
 }

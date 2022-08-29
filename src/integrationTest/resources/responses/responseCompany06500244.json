@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "title": "BBC LIMITED",
+      "address": {
+        "locality": "Retford",
+        "premises": "Boswell Cottage Main Street",
+        "country": "England",
+        "address_line_1": "North Leverton"
+      },
+      "officers": [
+        {
+          "name": "BOXALL, Sarah Victoria",
+          "address": {
+            "locality": "London",
+            "premises": "5",
+            "country": "England",
+            "address_line_1": "Cranford Close"
+          },
+          "officer_role": "secretary",
+          "appointed_on": "2008-02-11"
+        },
+        {
+          "name": "BRAY, Simon Anton",
+          "address": {
+            "locality": "London",
+            "premises": "5",
+            "country": "England",
+            "address_line_1": "Cranford Close"
+          },
+          "officer_role": "director",
+          "appointed_on": "2008-02-11"
+        },
+        {
+          "name": "FORM 10 SECRETARIES FD LTD",
+          "address": {
+            "locality": "Manchester",
+            "premises": null,
+            "country": null,
+            "address_line_1": "39a Leicester Road"
+          },
+          "officer_role": "corporate-nominee-secretary",
+          "appointed_on": "2008-02-11"
+        },
+        {
+          "name": "FORM 10 DIRECTORS FD LTD",
+          "address": {
+            "locality": "Manchester",
+            "premises": null,
+            "country": null,
+            "address_line_1": "39a Leicester Road"
+          },
+          "officer_role": "corporate-nominee-director",
+          "appointed_on": "2008-02-11"
+        }
+      ],
+      "company_number": "06500244",
+      "company_type": "ltd",
+      "company_status": "active",
+      "date_of_creation": "2008-02-11"
+    }
+  ],
+  "total_results": 1
+}

@@ -1,0 +1,14 @@
+
+apiKey: IoVV8jaWtJX5CRRIYqyR542r9Q2SzvU17XCDZun8
+apiBaseUrl: https://exercise.trunarrative.cloud/TruProxyAPI/rest
+
+
+server:
+  port: 8090
+
+spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5436/companies_database
+#    username: userName
+#    password: password
+
